@@ -10,10 +10,19 @@ fun main() {
     mutableList.removeAt(0)
     mutableList.remove(1)
 
+//    val people =
+//        mutableListOf(Person("Alice", 30),
+//                        Person("Bob", 35),
+//                        Person("John", 30))
+    
+//    // Person 빈 목록 리스트
+//    var people = mutableListOf<Person>()
+    
+    // 변경 불가한 리스트
     val people =
-        mutableListOf(Person("Alice", 30),
-                        Person("Bob", 35),
-                        Person("John", 30))
+        listOf(Person("Alice", 30),
+            Person("Bob", 35),
+            Person("John", 30))
 
 //    people.remove(Person("Alice", 30))
 //    people.removeAt(0)
