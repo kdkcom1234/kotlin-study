@@ -58,6 +58,7 @@ fun main() {
     person3.age = 35
 
     var calc = Calculator("공학계산기")
+    println(calc.name)
     calc.printName()
 
     println(Calculator.add(2, 3))
