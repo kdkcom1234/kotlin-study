@@ -13,6 +13,7 @@ package ch05
 
 // 데이터이기 때문에 참조가 기준이 아닌, 필드값으로 처리되는 함수를 만들어줌
 data class Person(val name: String, val age: Int)
+//-----
 
 fun main() {
     // 객체 생성
